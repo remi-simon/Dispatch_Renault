@@ -24,7 +24,7 @@ Toutes les fonctions sont importées par le fichier `import_all.jl`. Voici une b
 ## Algorithme de résolution 
 
 Comme décrit dans le rapport, nous avons choisi de décomposer ce problème en 2 étapes :
-- 'calcul_flux.jl' : Calcul des flux chaque jour pour chaque emballage entre chaque usine et chaque fournisseur 
-- 'affectation_route.jl' : Construit les routes à partir des flux obtenu par le fichier précédent 
+- `calcul_flux.jl` : Calcul des flux chaque jour pour chaque emballage entre chaque usine et chaque fournisseur 
+- `affectation_route.jl` : Construit les routes à partir des flux obtenu par le fichier précédent 
 
--'main.jl' : propose la génération de la solution et son coût
+-`main.jl` : propose la génération de la solution et son coût
